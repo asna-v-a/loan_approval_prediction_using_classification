@@ -41,4 +41,3 @@ This project aims to predict loan approval status using machine learning algorit
 
 ## Results
 The project compares the performance of different machine learning models for predicting loan approvals, evaluating them based on accuracy and other relevant metrics.
-
