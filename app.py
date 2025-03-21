@@ -53,7 +53,6 @@ if st.button("Check Loan Approval"):
                                        loan_amount, loan_term, credit_history, property_area)
         
         prediction = model.predict(input_data)
-        st.write(f"Raw Model Prediction: {prediction}")
 
         if prediction[0] == "Y":
             st.success("Congratulations! Your loan is likely to be approved.")
